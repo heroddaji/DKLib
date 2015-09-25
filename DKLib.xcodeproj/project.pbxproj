@@ -10,6 +10,14 @@
 		23EFFE291BB507B30042EFEB /* DKLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EFFE281BB507B30042EFEB /* DKLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23EFFE301BB507B30042EFEB /* DKLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EFFE251BB507B30042EFEB /* DKLib.framework */; settings = {ASSET_TAGS = (); }; };
 		23EFFE351BB507B30042EFEB /* DKLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE341BB507B30042EFEB /* DKLibTests.swift */; };
+		23EFFE471BB508000042EFEB /* DKArchivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE3F1BB508000042EFEB /* DKArchivable.swift */; settings = {ASSET_TAGS = (); }; };
+		23EFFE481BB508000042EFEB /* DKArchiveStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE401BB508000042EFEB /* DKArchiveStore.swift */; settings = {ASSET_TAGS = (); }; };
+		23EFFE491BB508000042EFEB /* DKAudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE411BB508000042EFEB /* DKAudioController.swift */; settings = {ASSET_TAGS = (); }; };
+		23EFFE4A1BB508000042EFEB /* DKDraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE421BB508000042EFEB /* DKDraggableView.swift */; settings = {ASSET_TAGS = (); }; };
+		23EFFE4B1BB508000042EFEB /* DKFloatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE431BB508000042EFEB /* DKFloatingControl.swift */; settings = {ASSET_TAGS = (); }; };
+		23EFFE4C1BB508000042EFEB /* DKFloatingControlItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE441BB508000042EFEB /* DKFloatingControlItem.swift */; settings = {ASSET_TAGS = (); }; };
+		23EFFE4D1BB508000042EFEB /* DKMover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE451BB508000042EFEB /* DKMover.swift */; settings = {ASSET_TAGS = (); }; };
+		23EFFE4E1BB508000042EFEB /* DKUIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE461BB508000042EFEB /* DKUIView+Animation.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,14 @@
 		23EFFE2F1BB507B30042EFEB /* DKLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EFFE341BB507B30042EFEB /* DKLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKLibTests.swift; sourceTree = "<group>"; };
 		23EFFE361BB507B30042EFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EFFE3F1BB508000042EFEB /* DKArchivable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKArchivable.swift; sourceTree = "<group>"; };
+		23EFFE401BB508000042EFEB /* DKArchiveStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKArchiveStore.swift; sourceTree = "<group>"; };
+		23EFFE411BB508000042EFEB /* DKAudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKAudioController.swift; sourceTree = "<group>"; };
+		23EFFE421BB508000042EFEB /* DKDraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKDraggableView.swift; sourceTree = "<group>"; };
+		23EFFE431BB508000042EFEB /* DKFloatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFloatingControl.swift; sourceTree = "<group>"; };
+		23EFFE441BB508000042EFEB /* DKFloatingControlItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFloatingControlItem.swift; sourceTree = "<group>"; };
+		23EFFE451BB508000042EFEB /* DKMover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKMover.swift; sourceTree = "<group>"; };
+		23EFFE461BB508000042EFEB /* DKUIView+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKUIView+Animation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,14 @@
 		23EFFE271BB507B30042EFEB /* DKLib */ = {
 			isa = PBXGroup;
 			children = (
+				23EFFE3F1BB508000042EFEB /* DKArchivable.swift */,
+				23EFFE401BB508000042EFEB /* DKArchiveStore.swift */,
+				23EFFE411BB508000042EFEB /* DKAudioController.swift */,
+				23EFFE421BB508000042EFEB /* DKDraggableView.swift */,
+				23EFFE431BB508000042EFEB /* DKFloatingControl.swift */,
+				23EFFE441BB508000042EFEB /* DKFloatingControlItem.swift */,
+				23EFFE451BB508000042EFEB /* DKMover.swift */,
+				23EFFE461BB508000042EFEB /* DKUIView+Animation.swift */,
 				23EFFE281BB507B30042EFEB /* DKLib.h */,
 				23EFFE2A1BB507B30042EFEB /* Info.plist */,
 			);
@@ -142,6 +166,7 @@
 		23EFFE1C1BB507B30042EFEB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = nevitech;
 				TargetAttributes = {
@@ -195,6 +220,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23EFFE4B1BB508000042EFEB /* DKFloatingControl.swift in Sources */,
+				23EFFE491BB508000042EFEB /* DKAudioController.swift in Sources */,
+				23EFFE471BB508000042EFEB /* DKArchivable.swift in Sources */,
+				23EFFE4C1BB508000042EFEB /* DKFloatingControlItem.swift in Sources */,
+				23EFFE481BB508000042EFEB /* DKArchiveStore.swift in Sources */,
+				23EFFE4A1BB508000042EFEB /* DKDraggableView.swift in Sources */,
+				23EFFE4E1BB508000042EFEB /* DKUIView+Animation.swift in Sources */,
+				23EFFE4D1BB508000042EFEB /* DKMover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +342,7 @@
 		23EFFE3A1BB507B30042EFEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -319,12 +353,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.nevitech.DKLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		23EFFE3B1BB507B30042EFEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;

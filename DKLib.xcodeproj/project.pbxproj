@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23EFFE291BB507B30042EFEB /* DKLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EFFE281BB507B30042EFEB /* DKLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23EFFE301BB507B30042EFEB /* DKLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EFFE251BB507B30042EFEB /* DKLib.framework */; settings = {ASSET_TAGS = (); }; };
+		23EFFE351BB507B30042EFEB /* DKLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE341BB507B30042EFEB /* DKLibTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23EFFE311BB507B30042EFEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23EFFE1C1BB507B30042EFEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23EFFE241BB507B30042EFEB;
+			remoteInfo = DKLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23EFFE251BB507B30042EFEB /* DKLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EFFE281BB507B30042EFEB /* DKLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKLib.h; sourceTree = "<group>"; };
+		23EFFE2A1BB507B30042EFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EFFE2F1BB507B30042EFEB /* DKLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EFFE341BB507B30042EFEB /* DKLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKLibTests.swift; sourceTree = "<group>"; };
+		23EFFE361BB507B30042EFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23EFFE211BB507B30042EFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EFFE2C1BB507B30042EFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EFFE301BB507B30042EFEB /* DKLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23EFFE1B1BB507B30042EFEB = {
+			isa = PBXGroup;
+			children = (
+				23EFFE271BB507B30042EFEB /* DKLib */,
+				23EFFE331BB507B30042EFEB /* DKLibTests */,
+				23EFFE261BB507B30042EFEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23EFFE261BB507B30042EFEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23EFFE251BB507B30042EFEB /* DKLib.framework */,
+				23EFFE2F1BB507B30042EFEB /* DKLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23EFFE271BB507B30042EFEB /* DKLib */ = {
+			isa = PBXGroup;
+			children = (
+				23EFFE281BB507B30042EFEB /* DKLib.h */,
+				23EFFE2A1BB507B30042EFEB /* Info.plist */,
+			);
+			path = DKLib;
+			sourceTree = "<group>";
+		};
+		23EFFE331BB507B30042EFEB /* DKLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				23EFFE341BB507B30042EFEB /* DKLibTests.swift */,
+				23EFFE361BB507B30042EFEB /* Info.plist */,
+			);
+			path = DKLibTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23EFFE221BB507B30042EFEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EFFE291BB507B30042EFEB /* DKLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23EFFE241BB507B30042EFEB /* DKLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23EFFE391BB507B30042EFEB /* Build configuration list for PBXNativeTarget "DKLib" */;
+			buildPhases = (
+				23EFFE201BB507B30042EFEB /* Sources */,
+				23EFFE211BB507B30042EFEB /* Frameworks */,
+				23EFFE221BB507B30042EFEB /* Headers */,
+				23EFFE231BB507B30042EFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKLib;
+			productName = DKLib;
+			productReference = 23EFFE251BB507B30042EFEB /* DKLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23EFFE2E1BB507B30042EFEB /* DKLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23EFFE3C1BB507B30042EFEB /* Build configuration list for PBXNativeTarget "DKLibTests" */;
+			buildPhases = (
+				23EFFE2B1BB507B30042EFEB /* Sources */,
+				23EFFE2C1BB507B30042EFEB /* Frameworks */,
+				23EFFE2D1BB507B30042EFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23EFFE321BB507B30042EFEB /* PBXTargetDependency */,
+			);
+			name = DKLibTests;
+			productName = DKLibTests;
+			productReference = 23EFFE2F1BB507B30042EFEB /* DKLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23EFFE1C1BB507B30042EFEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = nevitech;
+				TargetAttributes = {
+					23EFFE241BB507B30042EFEB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CC5TQTN25V;
+					};
+					23EFFE2E1BB507B30042EFEB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CC5TQTN25V;
+					};
+				};
+			};
+			buildConfigurationList = 23EFFE1F1BB507B30042EFEB /* Build configuration list for PBXProject "DKLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23EFFE1B1BB507B30042EFEB;
+			productRefGroup = 23EFFE261BB507B30042EFEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23EFFE241BB507B30042EFEB /* DKLib */,
+				23EFFE2E1BB507B30042EFEB /* DKLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23EFFE231BB507B30042EFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EFFE2D1BB507B30042EFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23EFFE201BB507B30042EFEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EFFE2B1BB507B30042EFEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EFFE351BB507B30042EFEB /* DKLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23EFFE321BB507B30042EFEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23EFFE241BB507B30042EFEB /* DKLib */;
+			targetProxy = 23EFFE311BB507B30042EFEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23EFFE371BB507B30042EFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23EFFE381BB507B30042EFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23EFFE3A1BB507B30042EFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DKLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.nevitech.DKLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		23EFFE3B1BB507B30042EFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DKLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.nevitech.DKLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		23EFFE3D1BB507B30042EFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DKLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.nevitech.DKLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23EFFE3E1BB507B30042EFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DKLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.nevitech.DKLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23EFFE1F1BB507B30042EFEB /* Build configuration list for PBXProject "DKLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EFFE371BB507B30042EFEB /* Debug */,
+				23EFFE381BB507B30042EFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23EFFE391BB507B30042EFEB /* Build configuration list for PBXNativeTarget "DKLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EFFE3A1BB507B30042EFEB /* Debug */,
+				23EFFE3B1BB507B30042EFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23EFFE3C1BB507B30042EFEB /* Build configuration list for PBXNativeTarget "DKLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EFFE3D1BB507B30042EFEB /* Debug */,
+				23EFFE3E1BB507B30042EFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23EFFE1C1BB507B30042EFEB /* Project object */;
+}

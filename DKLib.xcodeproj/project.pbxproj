@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		235CFD2E1BBBC7A6006AC744 /* DKAudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235CFD241BBBC7A6006AC744 /* DKAudioController.swift */; settings = {ASSET_TAGS = (); }; };
+		235CFD2F1BBBC7A6006AC744 /* DKArchivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235CFD261BBBC7A6006AC744 /* DKArchivable.swift */; settings = {ASSET_TAGS = (); }; };
+		235CFD301BBBC7A6006AC744 /* DKArchiveStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235CFD271BBBC7A6006AC744 /* DKArchiveStore.swift */; settings = {ASSET_TAGS = (); }; };
+		235CFD311BBBC7A6006AC744 /* DKDraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235CFD291BBBC7A6006AC744 /* DKDraggableView.swift */; settings = {ASSET_TAGS = (); }; };
+		235CFD321BBBC7A6006AC744 /* DKFloatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235CFD2A1BBBC7A6006AC744 /* DKFloatingControl.swift */; settings = {ASSET_TAGS = (); }; };
+		235CFD331BBBC7A6006AC744 /* DKFloatingControlItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235CFD2B1BBBC7A6006AC744 /* DKFloatingControlItem.swift */; settings = {ASSET_TAGS = (); }; };
+		235CFD341BBBC7A6006AC744 /* DKMover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235CFD2C1BBBC7A6006AC744 /* DKMover.swift */; settings = {ASSET_TAGS = (); }; };
+		235CFD351BBBC7A6006AC744 /* DKUIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235CFD2D1BBBC7A6006AC744 /* DKUIView+Animation.swift */; settings = {ASSET_TAGS = (); }; };
+		235CFD3C1BBBC8CA006AC744 /* DkDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235CFD391BBBC8CA006AC744 /* DkDictionary.swift */; settings = {ASSET_TAGS = (); }; };
+		235CFD3D1BBBC8CA006AC744 /* DKStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235CFD3B1BBBC8CA006AC744 /* DKStoryboard.swift */; settings = {ASSET_TAGS = (); }; };
 		23EFFE291BB507B30042EFEB /* DKLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EFFE281BB507B30042EFEB /* DKLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23EFFE301BB507B30042EFEB /* DKLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EFFE251BB507B30042EFEB /* DKLib.framework */; settings = {ASSET_TAGS = (); }; };
 		23EFFE351BB507B30042EFEB /* DKLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE341BB507B30042EFEB /* DKLibTests.swift */; };
-		23EFFE471BB508000042EFEB /* DKArchivable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE3F1BB508000042EFEB /* DKArchivable.swift */; settings = {ASSET_TAGS = (); }; };
-		23EFFE481BB508000042EFEB /* DKArchiveStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE401BB508000042EFEB /* DKArchiveStore.swift */; settings = {ASSET_TAGS = (); }; };
-		23EFFE491BB508000042EFEB /* DKAudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE411BB508000042EFEB /* DKAudioController.swift */; settings = {ASSET_TAGS = (); }; };
-		23EFFE4A1BB508000042EFEB /* DKDraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE421BB508000042EFEB /* DKDraggableView.swift */; settings = {ASSET_TAGS = (); }; };
-		23EFFE4B1BB508000042EFEB /* DKFloatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE431BB508000042EFEB /* DKFloatingControl.swift */; settings = {ASSET_TAGS = (); }; };
-		23EFFE4C1BB508000042EFEB /* DKFloatingControlItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE441BB508000042EFEB /* DKFloatingControlItem.swift */; settings = {ASSET_TAGS = (); }; };
-		23EFFE4D1BB508000042EFEB /* DKMover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE451BB508000042EFEB /* DKMover.swift */; settings = {ASSET_TAGS = (); }; };
-		23EFFE4E1BB508000042EFEB /* DKUIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFFE461BB508000042EFEB /* DKUIView+Animation.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,20 +33,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		235CFD241BBBC7A6006AC744 /* DKAudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKAudioController.swift; sourceTree = "<group>"; };
+		235CFD261BBBC7A6006AC744 /* DKArchivable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKArchivable.swift; sourceTree = "<group>"; };
+		235CFD271BBBC7A6006AC744 /* DKArchiveStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKArchiveStore.swift; sourceTree = "<group>"; };
+		235CFD291BBBC7A6006AC744 /* DKDraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKDraggableView.swift; sourceTree = "<group>"; };
+		235CFD2A1BBBC7A6006AC744 /* DKFloatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFloatingControl.swift; sourceTree = "<group>"; };
+		235CFD2B1BBBC7A6006AC744 /* DKFloatingControlItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFloatingControlItem.swift; sourceTree = "<group>"; };
+		235CFD2C1BBBC7A6006AC744 /* DKMover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKMover.swift; sourceTree = "<group>"; };
+		235CFD2D1BBBC7A6006AC744 /* DKUIView+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKUIView+Animation.swift"; sourceTree = "<group>"; };
+		235CFD391BBBC8CA006AC744 /* DkDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DkDictionary.swift; sourceTree = "<group>"; };
+		235CFD3B1BBBC8CA006AC744 /* DKStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKStoryboard.swift; sourceTree = "<group>"; };
 		23EFFE251BB507B30042EFEB /* DKLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EFFE281BB507B30042EFEB /* DKLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKLib.h; sourceTree = "<group>"; };
 		23EFFE2A1BB507B30042EFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23EFFE2F1BB507B30042EFEB /* DKLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EFFE341BB507B30042EFEB /* DKLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKLibTests.swift; sourceTree = "<group>"; };
 		23EFFE361BB507B30042EFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23EFFE3F1BB508000042EFEB /* DKArchivable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKArchivable.swift; sourceTree = "<group>"; };
-		23EFFE401BB508000042EFEB /* DKArchiveStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKArchiveStore.swift; sourceTree = "<group>"; };
-		23EFFE411BB508000042EFEB /* DKAudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKAudioController.swift; sourceTree = "<group>"; };
-		23EFFE421BB508000042EFEB /* DKDraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKDraggableView.swift; sourceTree = "<group>"; };
-		23EFFE431BB508000042EFEB /* DKFloatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFloatingControl.swift; sourceTree = "<group>"; };
-		23EFFE441BB508000042EFEB /* DKFloatingControlItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFloatingControlItem.swift; sourceTree = "<group>"; };
-		23EFFE451BB508000042EFEB /* DKMover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKMover.swift; sourceTree = "<group>"; };
-		23EFFE461BB508000042EFEB /* DKUIView+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKUIView+Animation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		235CFD231BBBC7A6006AC744 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				235CFD241BBBC7A6006AC744 /* DKAudioController.swift */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		235CFD251BBBC7A6006AC744 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				235CFD261BBBC7A6006AC744 /* DKArchivable.swift */,
+				235CFD271BBBC7A6006AC744 /* DKArchiveStore.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		235CFD281BBBC7A6006AC744 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				235CFD291BBBC7A6006AC744 /* DKDraggableView.swift */,
+				235CFD2A1BBBC7A6006AC744 /* DKFloatingControl.swift */,
+				235CFD2B1BBBC7A6006AC744 /* DKFloatingControlItem.swift */,
+				235CFD2C1BBBC7A6006AC744 /* DKMover.swift */,
+				235CFD2D1BBBC7A6006AC744 /* DKUIView+Animation.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		235CFD381BBBC8CA006AC744 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				235CFD391BBBC8CA006AC744 /* DkDictionary.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		235CFD3A1BBBC8CA006AC744 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				235CFD3B1BBBC8CA006AC744 /* DKStoryboard.swift */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
 		23EFFE1B1BB507B30042EFEB = {
 			isa = PBXGroup;
 			children = (
@@ -87,14 +136,11 @@
 		23EFFE271BB507B30042EFEB /* DKLib */ = {
 			isa = PBXGroup;
 			children = (
-				23EFFE3F1BB508000042EFEB /* DKArchivable.swift */,
-				23EFFE401BB508000042EFEB /* DKArchiveStore.swift */,
-				23EFFE411BB508000042EFEB /* DKAudioController.swift */,
-				23EFFE421BB508000042EFEB /* DKDraggableView.swift */,
-				23EFFE431BB508000042EFEB /* DKFloatingControl.swift */,
-				23EFFE441BB508000042EFEB /* DKFloatingControlItem.swift */,
-				23EFFE451BB508000042EFEB /* DKMover.swift */,
-				23EFFE461BB508000042EFEB /* DKUIView+Animation.swift */,
+				235CFD381BBBC8CA006AC744 /* extension */,
+				235CFD3A1BBBC8CA006AC744 /* utility */,
+				235CFD231BBBC7A6006AC744 /* audio */,
+				235CFD251BBBC7A6006AC744 /* data */,
+				235CFD281BBBC7A6006AC744 /* ui */,
 				23EFFE281BB507B30042EFEB /* DKLib.h */,
 				23EFFE2A1BB507B30042EFEB /* Info.plist */,
 			);
@@ -220,14 +266,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23EFFE4B1BB508000042EFEB /* DKFloatingControl.swift in Sources */,
-				23EFFE491BB508000042EFEB /* DKAudioController.swift in Sources */,
-				23EFFE471BB508000042EFEB /* DKArchivable.swift in Sources */,
-				23EFFE4C1BB508000042EFEB /* DKFloatingControlItem.swift in Sources */,
-				23EFFE481BB508000042EFEB /* DKArchiveStore.swift in Sources */,
-				23EFFE4A1BB508000042EFEB /* DKDraggableView.swift in Sources */,
-				23EFFE4E1BB508000042EFEB /* DKUIView+Animation.swift in Sources */,
-				23EFFE4D1BB508000042EFEB /* DKMover.swift in Sources */,
+				235CFD321BBBC7A6006AC744 /* DKFloatingControl.swift in Sources */,
+				235CFD3D1BBBC8CA006AC744 /* DKStoryboard.swift in Sources */,
+				235CFD2E1BBBC7A6006AC744 /* DKAudioController.swift in Sources */,
+				235CFD301BBBC7A6006AC744 /* DKArchiveStore.swift in Sources */,
+				235CFD331BBBC7A6006AC744 /* DKFloatingControlItem.swift in Sources */,
+				235CFD2F1BBBC7A6006AC744 /* DKArchivable.swift in Sources */,
+				235CFD311BBBC7A6006AC744 /* DKDraggableView.swift in Sources */,
+				235CFD351BBBC7A6006AC744 /* DKUIView+Animation.swift in Sources */,
+				235CFD341BBBC7A6006AC744 /* DKMover.swift in Sources */,
+				235CFD3C1BBBC8CA006AC744 /* DkDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +461,7 @@
 				23EFFE3B1BB507B30042EFEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23EFFE3C1BB507B30042EFEB /* Build configuration list for PBXNativeTarget "DKLibTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +470,7 @@
 				23EFFE3E1BB507B30042EFEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,7 @@
 import UIKit
 
 var dimViewInterval:NSTimeInterval = 0
+
 extension UIView{
     func dimViewEnable(interval: NSTimeInterval){
         dimViewInterval = interval
